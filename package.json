@@ -1,0 +1,15 @@
+{
+  "name": "ai-showcase",
+  "version": "1.0.0",
+  "description": "AI tools showcase website with particle effects",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["ai", "showcase", "particles"],
+  "author": "",
+  "license": "MIT"
+}
